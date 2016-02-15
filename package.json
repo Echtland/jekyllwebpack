@@ -1,0 +1,36 @@
+{
+  "name": "jekyllwebpack",
+  "version": "1.0.0",
+  "description": "Code from the React Webpack tutorial.",
+  "main": "server-express.js",
+  "engines": {
+    "node": "5.0.0",
+    "npm": "3.3.6"
+  },
+  "scripts": {
+    "postinstall": "cd client && npm install",
+    "build": "(npm run build:client && jekyll b)",
+    "build:client": "(cd client && npm run build:client --silent)",
+    "build:dev:client": "(cd client && npm run build:dev:client --silent)",
+    "start": "(npm run build:dev:client --silent)",
+    "build:production": "(cd client && npm run build:production:client && jekyll b)"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/shakacode/react-webpack-rails-tutorial.git"
+  },
+  "keywords": [
+    "react",
+    "tutorial",
+    "comment",
+    "example"
+  ],
+  "author": "justin808",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/shakacode/react-webpack-rails-tutorial/issues"
+  },
+  "homepage": "https://github.com/shakacode/react-webpack-rails-tutorial",
+  "dependencies": {
+  }
+}

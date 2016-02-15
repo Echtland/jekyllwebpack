@@ -1,4 +1,6 @@
 .sass-cache
 /build/
 _site
-Gemfile.lock
+source/_assets/javascripts/
+source/_assets/stylesheets/
+client/node_modules/
